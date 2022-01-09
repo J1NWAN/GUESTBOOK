@@ -41,6 +41,13 @@
 			<artifactId>mariadb-java-client</artifactId>
 			<version>3.0.2-rc</version>
 		</dependency>
+		
+		<!-- JDBC 사용 -->
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-jdbc</artifactId>
+			<version>5.2.9.RELEASE</version>
+		</dependency>
 	</dependencies>
 
 	<build>
